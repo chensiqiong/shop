@@ -1,0 +1,7 @@
+<!-- 头部搜索框 -->
+<view class="header">
+  <view class="search-in">
+    <icon type="search" color="#bcbcbc"></icon>搜索</view>
+</view>
+<!-- 头部搜索框 -->
+

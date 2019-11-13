@@ -1,0 +1,92 @@
+/**index.wxss**/
+/* 头部搜索框 */
+.header {
+  background-color: #eb4450;
+  padding: 20rpx 16rpx;
+}
+.search-in {
+  height: 64rpx;
+  border-radius: 4rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #bdbdbd;
+}
+/* 头部搜索框 */
+
+/* 轮播图 */
+.slider-item {
+  height: 340rpx;
+}
+.slider-item image {
+  width: 100%;
+  height: 100%;
+}
+/* 轮播图 */
+
+/* 导航 */
+.nav {
+  display: flex;
+  padding: 28rpx 0;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24rpx;
+}
+.nav-icon {
+  /* margin-bottom: 10rpx; */
+  width: 128rpx;
+  height: 140rpx;
+}
+/* 导航 */
+
+/* 时尚女装 */
+.floor-title {
+  background-color: #f4f4f4;
+  height: 88rpx;
+}
+.floor-title image{
+  width: 100%;
+  height:100%;
+}
+.product_list {
+  padding: 20rpx 0 20rpx 16rpx;
+}
+.product-item {
+  padding: 5rpx;
+  width: 232rpx;
+  height: 188rpx;
+  float: left;
+}
+.product-item:first-child {
+  height: 386rpx;
+}
+/* 时尚女装 */
+
+/* 回到顶部 */
+.backToTop{
+  position: fixed;
+  right: 20rpx;
+  bottom: 100rpx;
+  width:88rpx;
+  height: 88rpx;
+  border-radius:50%;
+  font-size: 22rpx;
+  background-color: rgba(255,255,255,.6);
+  color: rgb(102,102,102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 回到顶部 */
+
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}

@@ -1,0 +1,59 @@
+/* pages/search/search.wxss */
+
+/* 搜索 */
+
+.header {
+  height: 120rpx;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-in {
+  background-color: #fff;
+  color: #808080;
+  width: 540rpx;
+  height: 60rpx;
+  border-radius: 6rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.search-in icon {
+  padding: 0 14rpx;
+}
+
+.cancel-btn {
+  border: 1rpx solid #bfbfbf;
+  width: 160rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+/* 搜索 */
+
+/* 历史记录 */
+
+.history {
+  padding: 30rpx 0;
+}
+.history-title{
+  padding-left:16rpx;
+}
+.histoty-list{
+  padding: 30rpx 0;
+  display:flex;
+  flex-wrap: wrap;
+  font-size: 22rpx;
+}
+.history-item{
+  background-color:#ddd;
+  padding: 22rpx 24rpx;
+  margin: 18rpx 16rpx;
+}
+
+/* 历史记录 */

@@ -1,0 +1,17 @@
+/* 头部搜索框 */
+.header {
+  background-color: #eb4450;
+  padding: 20rpx 16rpx;
+}
+
+.search-in {
+  height: 64rpx;
+  border-radius: 4rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #bdbdbd;
+}
+/* 头部搜索框 */

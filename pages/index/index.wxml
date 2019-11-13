@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<!-- 头部搜索框 -->
+<view class="header">
+  <view class="search-in">
+    <icon type="search" color="#bcbcbc"></icon>搜索</view>
+</view>
+<!-- 头部搜索框 -->
+
+
+<!-- 轮播图 -->
+<view class="slider">
+  <swiper class="slider-swiper" autoplay circular indicator-dots indicator-color="rgba(255, 255, 255, .4)" indicator-active-color="#fff" interval="2000">
+    <swiper-item class="slider-item" wx:for="{{swiperData}}" wx:key="goods_id">
+      <image src="{{item.image_src}}" mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 轮播图 -->
+
+
+<!-- 导航栏 -->
+<view class="nav">
+  <block wx:for="{{navData}}" wx:key="name">
+    <navigator class="nav-item">
+      <image class="nav-icon" src="{{item.image_src}}" mode="aspectFill"></image>
+    </navigator>
+  </block>
+</view>
+<!-- 导航栏 -->
+
+
+<!-- 时尚女装 -->
+<block wx:for="{{floorData}}" wx:key="">
+  <view class="floor">
+    <view class="floor-title">
+      <image src="{{item.floor_title.image_src}}" mode="aspectFit"></image>
+    </view>
+    <view class="product_list clearfix">
+      <block wx:for="{{item.product_list}}" wx:key="name" wx:for-item="item2">
+        <image class="product-item" src="{{item2.image_src}}"></image>
+      </block>
+    </view>
+  </view>
+</block>
+<!-- 时尚女装 -->
+
+
+<!-- 回到顶部 -->
+<view class="backToTop" bindtap="backToTop" data-scrollTop="{{0}}">顶部</view>
+<!-- 回到顶部 -->
+

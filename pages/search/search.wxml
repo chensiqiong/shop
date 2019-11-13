@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view class="header">
+  <view class="search-in">
+    <icon type="search"></icon>
+    请输入你想要的商品</view>
+  <view class="cancel-btn">取消</view>
+</view>
+
+<view class="history">
+  <view class="history-title">历史记录</view>
+  <view class="histoty-list">
+    <view class="history-item">小米</view>
+    <view class="history-item">小米智能电视</view>
+    <view class="history-item">小米空气净化器</view>
+    <view class="history-item">西门子洗碗机</view>
+  </view>
+</view>
